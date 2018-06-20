@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+girl:
+  age: 17
+  name: fengfeng1

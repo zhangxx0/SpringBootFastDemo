@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.105.26.121:3306/dbgirl
+    username: root
+    password: 886688xx
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

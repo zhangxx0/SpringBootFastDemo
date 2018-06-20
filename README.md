@@ -6,7 +6,7 @@ Learn Spring Boot
 
 ## [《web进阶》](https://www.imooc.com/learn/810)
 
-##[《SpringBoot开发常用技术整合》](http://www.imooc.com/learn/956)
+## [《SpringBoot开发常用技术整合》](http://www.imooc.com/learn/956)
 
 
 

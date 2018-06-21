@@ -1,7 +1,7 @@
 package com.xinxin.springbootfastdemo.respository;
 
 
-import com.xinxin.springbootfastdemo.entity.Girl;
+import com.xinxin.springbootfastdemo.domain.Girl;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

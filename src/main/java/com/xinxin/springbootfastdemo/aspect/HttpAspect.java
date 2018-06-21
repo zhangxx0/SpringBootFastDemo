@@ -1,6 +1,5 @@
 package com.xinxin.springbootfastdemo.aspect;
 
-import com.sun.xml.internal.ws.resources.HttpserverMessages;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.slf4j.Logger;
@@ -9,9 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
-import javax.servlet.ServletRequest;
 import javax.servlet.http.HttpServletRequest;
-import javax.validation.Valid;
 
 @Aspect
 @Component

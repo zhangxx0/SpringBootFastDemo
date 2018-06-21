@@ -1,4 +1,4 @@
-package com.xinxin.springbootfastdemo.entity;
+package com.xinxin.springbootfastdemo.domain;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -7,10 +7,12 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.validation.constraints.Min;
+import java.io.Serializable;
 
 @Entity
+// 忽略序列化
 @JsonIgnoreProperties(value={"hibernateLazyInitializer","handler","fieldHandler"})
-public class Girl {
+public class Girl implements Serializable {
 
     @Id
     @GeneratedValue

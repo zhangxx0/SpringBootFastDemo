@@ -6,6 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.validation.constraints.Min;
 
 @Entity
 @JsonIgnoreProperties(value={"hibernateLazyInitializer","handler","fieldHandler"})
@@ -17,6 +18,7 @@ public class Girl {
 
     private String name;
 
+    @Min(value = 18,message = "未成年禁止入内")
     private Integer age;
 
     public Girl() {
